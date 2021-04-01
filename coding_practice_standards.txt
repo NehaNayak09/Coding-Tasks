@@ -1,0 +1,74 @@
+10 points on better coding practice for programmers
+
+1. Use a coding standard: 
+Coding standards help in the development of software programs that are less complex and thereby reduce the errors. If the coding standards are followed, the code is consistent and can be easily maintained. This is because anyone can understand it and can modify it at any point in time.
+
+2. Use meaningful names:
+It is a very common issue where developers use variables like x1, y1 and forget to replace them with meaningful ones, causing confusion and making the code less readable.
+
+3. Naming conventions for local variables, global variables, constants, and functions: 
+Use of proper naming conventions is a well-known best practice.
+A possible naming convention can be that local variables should be named using camel case lettering starting with lowercase letters (e.g., localData) whereas global variables names should start with a capital letter (e.g., GlobalData). Constant names should be formed using all capital letters (e.g., CONSDATA).
+
+4. Write useful comments:
+Commenting involves placing Human Readable Descriptions inside of computer programs detailing what the code is doing. Proper use of commenting can make code maintenance much easier, as well as helping make finding bugs faster. Further, commenting is very important when writing functions that other people will use. Well documented code is as important as correctly working code.
+
+5. Limited use of global:
+Here are some of the reasons why global variables should be avoided: 
+
+* Too many variables declared as global, then they remain in the memory till program execution is completed. This can cause of Out of Memory issue.
+* Data can be modified by any function. Any statement written in the program can change the value of the global variable. This may give unpredictable results in multi-tasking environments.
+
+* If global variables are discontinued due to code refactoring, you will need to change all the modules where they are called.
+
+
+6. Indentation:
+Proper and consistent indentation is essential in producing easy to read and maintainable programs.
+     Indentation should be used to:
+o Emphasize the body of a control structure such as a loop or a select statement.
+o Emphasize the body of a conditional statement.
+o Emphasize a new scope block.
+
+7. Structured programming:
+The structured programming approach is well accepted in the programming world as:
+1. Easier to read and understand.
+2. User friendly
+3. Easier to maintain.
+4. Mainly problem based instead of being machine based.
+5. Development is easier as it requires less effort and time.
+6. Easier to debug.
+7. Machine-Independent, mostly.
+
+8. Error return values and exception handling conventions:
+‘Exception’ refers to problems, issues, or uncommon events that occur when code is run and disrupt the normal flow of execution. Different functions in a program report the way error conditions are handled should be standard within an organization. For example, different tasks while encountering an error condition should either return a 0 or 1 consistently.
+
+9. Standardize headers for different modules:
+For better understanding and maintenance of the code, the header of different modules should follow some standard format and information. The header format must contain below things that is being used in various companies:
+* Name of the module
+* Date of module creation
+* Author of the module
+* Modification history
+* Synopsis of the module about what the module does
+* Different functions supported in the module along with their input output parameters.
+* Global variables accessed or modified by the module.
+
+10.  Length of functions should not be very large:
+Lengthy functions are very difficult to understand. That is why functions should be small enough to carry out small work and lengthy functions should be broken into small ones for completing small tasks.
+
+
+
+
+Links:
+==> https://www.sitepoint.com/10-tips-for-better-coding/
+
+==> https://levelup.gitconnected.com/write-better-code-with-coding-standards-546faf3fd4d1
+
+==> https://www.geeksforgeeks.org/coding-standards-and-guidelines/
+
+==> https://www.javatpoint.com/software-engineering-coding
+
+==> https://opensource.com/article/17/5/30-best-practices-software-development-and-testing
+
+==> https://www.browserstack.com/guide/coding-standards-best-practices
+
+
